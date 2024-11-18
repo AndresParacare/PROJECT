@@ -1,1 +1,1 @@
-# Proyecto de laboratorio de lenguaje de programacion
+# Proyecto de laboratorio de lenguaje de programación
