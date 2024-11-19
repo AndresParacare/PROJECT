@@ -1,63 +1,21 @@
 *****************************************
-*   Proceso de de una paginacion de 	*
-* control para  un tanque de gasolina	*
+*       Proceso de una pagina de	*
+*  control para  un tanque de gasolina	* 
 *****************************************
 
-**Explicacion del uso del software
+**
+Explicacion del uso del software
 +Que es?
 +Expplicar su uso
 +Dar un ejemplo de uso
 **
 
 Estructuracion del Programa:
-
-+ db:   Este fichero se encargar de administrar
-	la base de datos.
-
-+ forms: Contiene todas las paginas que se van a
-	 desplegar durante el proceso de ejecucion
-	 del software.
-
-+ Imagenes: Contiene todas las imagenes del proyecto.
-
-+ Persistence:
-
-+ utilities:
-
-forms: ventanas
-utilities: herramientas del programa
-Imagenes: imagenes
-persistence: carpeta sin utilidad
-db: base de datos
-
-Bien, ya visto los diferentes ficheros que componen el programa,
-ahora se presentara la estructuracion de cada fichero. Cada 
-fichero puede contener varios subficheros, estos subficheros 
-contienen todas las  dependencias que permiten que el software 
-puede ejecutarse de forma normal y sin problema. Los fichero estan 
-compusto por modulos hechos en python, cada modulo python esta 
-encargado de hacer un cierto trabajo dentro de la ejecucion del
-software como por ejemplo: mostrar el login, la interfaz de la base 
-de datos o ciertos componentes como; botones, barras, ventanas y de 
-mas componentes. En especifico, cada fichero presente, se deglosara yse explicara cada una de sus diferentes funcionalidades.
-
-Para mostrar cada fichero, comenzaremos por presentar una descripcion
-mas profunda del fichero; explicando el funcionamiento de cada
-fichero y su compenentes, luego explicara la utilidad de cada 
-componente. En el caso de que un fichero contenga subficheros 
-internos, cada vez que presentemos un subficheros, utilizaremos un 
-guion (-) a la izquierda del nombre del fichero y un tab para cada 
-componente; y en el caso que estos ficheros contengan un fichero, 
-un guion doble (--) y un tab doble para cada uno de sus componentes;
-el numero de quiones y tabs aumentar con cada subfichero que contenga
-cada carpeta.
-
-Ahora, ya explicado la presentacion de la estructuracion del programa
-comenzaremos con explicacion del funcionamiento del software.
-
-*************************************
-nombre del fichero:
-------------------
+******************************************
+db:
+--
+Este fichero se encargar de administrar
+la base de datos.
 
 1. componente
 2. componente
@@ -65,8 +23,28 @@ nombre del fichero:
 etc
 
  
-nombre del fichero:
-------------------
+forms:
+-----
+Contiene todas las paginas que se van a
+desplegar durante el proceso de ejecucion
+del software.
+
+1. componente
+2. componente
+3. componente
+etc
+
+Imagenes:
+--------
+Contiene todas las imagenes del proyecto.
+
+1. componente
+2. componente
+3. componente
+etc
+
+Utilities:
+---------
 1. componente
 2. componente
 3. componente
