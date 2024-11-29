@@ -61,4 +61,3 @@ class LoginDesign:
         start.bind("<Return>", lambda event: self.start(self.userRegister()))
 
         self.wndw.mainloop()
-    
