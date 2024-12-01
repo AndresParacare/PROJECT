@@ -60,4 +60,5 @@ class LoginDesign:
         start.pack(fill= tk.X, padx= 20, pady=20)
         start.bind("<Return>", lambda event: self.start(self.userRegister()))
 
+        #end all process
         self.wndw.mainloop()
