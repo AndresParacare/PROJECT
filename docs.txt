@@ -54,10 +54,10 @@ Dependencias:
 *********************
 Dependencias:
 ------------
-pip install psycopg2 numpy
+pip install 
 
 db:
 --
 
-1. Base de datos: postgresql
+1. Base de datos: sqlite
 2.
