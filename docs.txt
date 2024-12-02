@@ -50,3 +50,14 @@ Utilities:
 3. componente
 etc
 
+Dependencias:
+*********************
+Dependencias:
+------------
+pip install 
+
+db:
+--
+
+1. Base de datos: sqlite
+2.
